@@ -1,0 +1,246 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;  
+    background-color: #f3e5f5;  
+
+}
+
+.top {
+    top: 0px;
+    position: fixed;
+    height: 8rem;
+    width: 100%;
+    background-color: #333;
+    color: white;
+    opacity: 0.8.1;
+    color: white;
+    align-items: center;
+    padding: 0.6rem;    
+}
+
+.top h1{
+    margin-left: 39rem;
+
+}
+
+.top p {
+    margin-left: 34rem;
+    font-size: large;
+    font-weight: bolder;
+}
+
+#nav {
+   
+    background-color: #444;
+    display: flex;
+    justify-content: center;
+    padding-top: 0.8rem;
+    margin-top: 9.3rem;
+    height: 2.8rem;
+    width: 100%;
+}
+ #nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+ }
+
+#about-me {
+    height: 22rem;
+    max-width: 50rem;
+    align-items: center;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background-color: #f0f8ff;
+    border-radius: 1rem;   
+    margin: 1rem auto;
+    border: 3.5px solid black;
+
+}
+
+#about-me:hover {
+    padding: 2rem;
+    transition: 0.3s;
+    border-radius: 1.5rem;
+    box-shadow: 3px 4px 8px rgba(72, 187, 255, 0.5);
+
+}
+
+.about-me-top h1 {
+    margin-left: 13rem;
+    display: inline;
+}
+
+.about-me-top img {
+    display: inline;
+    margin-left: 38rem;
+    margin-right: 18rem;
+    margin-bottom: 3.8rem;
+    height:190px; 
+    width:170px;
+    border: 0.2rem solid black;
+    border-radius: 0.6rem;
+}
+#about-me p {
+    font-size: 1rem;
+    display: inline;
+    margin-bottom: 1rem;
+}
+
+#skills {
+    height: 8rem;
+    max-width: 50rem;
+    padding: 1rem;
+    margin: 1rem auto;    
+    background-color: #e5f2fd;
+    margin-top: 1.3rem;
+    border-radius: 1rem;
+    border: 3.5px solid black;
+    
+}
+
+#skills:hover {
+    padding: 2rem;
+    transition: 0.3s;
+    border-radius: 1.5rem;
+    box-shadow: 3px 4px 8px rgba(72, 187, 255, 0.5);
+}
+
+#skills h2 {
+    color: black;
+    font-size: 1.5em;
+    margin-top: 0;
+    margin-left: 20rem;
+    align-items: center;
+
+}
+
+#skills ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 3rem;
+    justify-content: space-around;
+    margin-top: 4rem;
+    margin-right: 8rem;
+    margin-left: 0.4rem;
+    font-weight: 550;
+    font-size: large;
+}
+
+button {
+
+    background-color: #c6e2fc;
+    border-radius: 0.5rem;
+    height: 2rem;
+    width: 5rem;
+    opacity: 1;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+#projects {
+    height: 18rem;
+    max-width: 50rem;
+    padding: 1rem;
+    background-color: #f0f8ff;
+    border-radius: 1rem;   
+    margin: 1rem auto;
+    border: 3.5px solid black;
+}
+
+#projects:hover {
+    padding: 2rem;
+    transition: 0.3s;
+    border-radius: 1.5rem;
+    box-shadow: 3px 4px 8px rgba(72, 187, 255, 0.5);
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+a:hover {
+    font-size: 1.1rem;
+}
+
+
+  h2 {
+    margin-left: 18rem;
+}
+
+#education {
+    height: 13rem;
+    max-width: 50rem;
+    padding: 1rem;
+    background-color: #f0f8ff;
+    border-radius: 1rem;   
+    margin: 1rem auto;
+    border: 3.5px solid black;
+
+}
+
+#education:hover {
+    padding: 2rem;
+    transition: 0.3s;
+    border-radius: 1.5rem;
+    box-shadow: 3px 4px 8px rgba(72, 187, 255, 0.5);
+}
+
+#interests {
+    height: 8rem;
+    max-width: 50rem;
+    padding: 1rem;
+    background-color: #f0f8ff;
+    border-radius: 1rem;   
+    margin: 1rem auto;
+    border: 3.5px solid black;
+}
+
+#interests:hover {
+    padding: 2rem;
+    transition: 0.3s;
+    border-radius: 1.5rem;
+    box-shadow: 3px 4px 8px rgba(72, 187, 255, 0.5);
+}
+
+.interest-item {
+    display: inline-block;
+    margin-left: 2rem;
+}
+
+ i {
+    margin-left: 3rem;
+}
+
+
+.interest-item:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    color: #007bff;
+}
+
+#contact {
+    height: 7rem;
+    max-width: 50rem;
+    padding: 1rem;
+    background-color: #f0f8ff;
+    border-radius: 1rem;   
+    margin: 1rem auto;
+    border: 3.5px solid black;
+}
+
+#contact:hover {
+    padding: 1.5rem;
+    transition: 0.3s;
+    border-radius: 1.5rem;
+    box-shadow: 3px 4px 8px rgba(72, 187, 255, 0.5);
+}
