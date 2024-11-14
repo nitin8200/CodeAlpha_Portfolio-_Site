@@ -4,8 +4,8 @@
 
 . Build using with HTML and CSS.
 
-. ## Overview
+# Overview
 
-This portfolio includes sections for **About Me**, **Skills**, **Projects**, **Education**, **Interests**, and **Contact Information**.
+ . This portfolio includes sections for **About Me**, **Skills**, **Projects**, **Education**, **Interests**, and **Contact Information**.
 
-.It's designed to highlight my web development projects and skills in a professional, accessible format
+.  It's designed to highlight my web development projects and skills in a professional, accessible format
